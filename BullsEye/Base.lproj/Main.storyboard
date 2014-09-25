@@ -96,6 +96,7 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="bullRandomNumberLabel" destination="EB0-ya-QbI" id="1fP-Q6-ed5"/>
                         <outlet property="bullSlider" destination="LMY-jf-HRM" id="hqq-pf-FYk"/>
                     </connections>
                 </viewController>

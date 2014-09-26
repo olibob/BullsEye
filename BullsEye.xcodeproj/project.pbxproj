@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43337FF19D5B23D00468C38 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43337FE19D5B23D00468C38 /* AboutViewController.swift */; };
+		C433380319D5D8D300468C38 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C433380219D5D8D300468C38 /* BullsEye.html */; };
+		C433380A19D5E2D800468C38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C433380819D5E2D800468C38 /* Default-568h@2x.png */; };
+		C433380B19D5E2D800468C38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C433380919D5E2D800468C38 /* Default@2x.png */; };
 		E62F676D19D41FA100AE9639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F676C19D41FA100AE9639 /* AppDelegate.swift */; };
 		E62F676F19D41FA100AE9639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F676E19D41FA100AE9639 /* ViewController.swift */; };
 		E62F677219D41FA100AE9639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62F677019D41FA100AE9639 /* Main.storyboard */; };
 		E62F677419D41FA100AE9639 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62F677319D41FA100AE9639 /* Images.xcassets */; };
-		E62F677719D41FA100AE9639 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E62F677519D41FA100AE9639 /* LaunchScreen.xib */; };
 		E62F678319D41FA100AE9639 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F678219D41FA100AE9639 /* BullsEyeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C43337FE19D5B23D00468C38 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C433380219D5D8D300468C38 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		C433380819D5E2D800468C38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C433380919D5E2D800468C38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E62F676719D41FA100AE9639 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62F676B19D41FA100AE9639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E62F676C19D41FA100AE9639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62F676E19D41FA100AE9639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E62F677119D41FA100AE9639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E62F677319D41FA100AE9639 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E62F677619D41FA100AE9639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E62F677C19D41FA100AE9639 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62F678119D41FA100AE9639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E62F678219D41FA100AE9639 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
@@ -77,11 +83,14 @@
 		E62F676919D41FA100AE9639 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				C433380819D5E2D800468C38 /* Default-568h@2x.png */,
+				C433380919D5E2D800468C38 /* Default@2x.png */,
+				C433380219D5D8D300468C38 /* BullsEye.html */,
 				E62F676C19D41FA100AE9639 /* AppDelegate.swift */,
 				E62F676E19D41FA100AE9639 /* ViewController.swift */,
+				C43337FE19D5B23D00468C38 /* AboutViewController.swift */,
 				E62F677019D41FA100AE9639 /* Main.storyboard */,
 				E62F677319D41FA100AE9639 /* Images.xcassets */,
-				E62F677519D41FA100AE9639 /* LaunchScreen.xib */,
 				E62F676A19D41FA100AE9639 /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -161,6 +170,7 @@
 				TargetAttributes = {
 					E62F676619D41FA100AE9639 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 8WC63SAH6N;
 					};
 					E62F677B19D41FA100AE9639 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -193,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E62F677219D41FA100AE9639 /* Main.storyboard in Resources */,
-				E62F677719D41FA100AE9639 /* LaunchScreen.xib in Resources */,
+				C433380A19D5E2D800468C38 /* Default-568h@2x.png in Resources */,
+				C433380B19D5E2D800468C38 /* Default@2x.png in Resources */,
+				C433380319D5D8D300468C38 /* BullsEye.html in Resources */,
 				E62F677419D41FA100AE9639 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43337FF19D5B23D00468C38 /* AboutViewController.swift in Sources */,
 				E62F676F19D41FA100AE9639 /* ViewController.swift in Sources */,
 				E62F676D19D41FA100AE9639 /* AppDelegate.swift in Sources */,
 			);
@@ -242,14 +255,6 @@
 				E62F677119D41FA100AE9639 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E62F677519D41FA100AE9639 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E62F677619D41FA100AE9639 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +410,7 @@
 				E62F678819D41FA100AE9639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E62F678919D41FA100AE9639 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				E62F678B19D41FA100AE9639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
